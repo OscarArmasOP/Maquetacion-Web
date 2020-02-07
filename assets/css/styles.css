@@ -134,3 +134,13 @@ body {
     background: #444444;
     color: withe;
 }
+
+.slider-small {
+    height: 150px;
+}
+
+.slider-small h1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-top: 150px;
+}

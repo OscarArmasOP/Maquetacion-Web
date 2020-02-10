@@ -169,12 +169,6 @@ body {
 .sidebar-item .btn {
     margin: 0px auto;
     margin-top: 10px;
-    transition: 300ms all;
-}
-
-.sidebar-item .btn:hover {
-    background: #444444;
-    color: withe;
 }
 
 .sidebar-item h3 {
@@ -198,23 +192,60 @@ body {
     max-width: 150px;
     border: none;
     cursor: pointer;
+    transition: 300ms all;
 }
 
 .btn-success {
     background: green;
 }
 
-input[type="text"] {
+.btn:hover {
+    background: #444444;
+    color: withe;
+}
+
+input[type="text"],
+textarea {
     width: 100%;
-    height: 30px;
+    min-height: 30px;
     border: 1px solid #554e4e;
     margin-bottom: 5px;
     padding: 3px;
     transition: 300ms all;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+textarea:focus {
     box-shadow: 0px 0px 5px #444444 inset;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+    min-height: 150px;
+}
+
+.mid-form {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.mid-form label {
+    display: block;
+    float: left;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.radiobuttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
 }
 
 #footer {
@@ -228,4 +259,73 @@ input[type="text"]:focus {
 #footer p {
     margin: 0px;
     padding: 0px;
+}
+
+.article-item {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .image-wrap {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.article-item .image-wrap img {
+    height: 100%;
+    text-align: center;
+}
+
+.article-item h2 {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date {
+    display: block;
+    width: 100%;
+    color: #8d8686;
+}
+
+.article-item a {
+    display: block;
+    color: #444444;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.article-item a:hover {
+    text-decoration: underline;
+}
+
+.subHeader {
+    font-size: 38px;
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+}
+
+.article-detail .image-wrap {
+    float: none;
+    width: 100%;
+    height: 500px;
+}
+
+.article-detail .image-wrap img {
+    padding-left: 40px;
+}
+
+.article-detail .subHeader {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border: none;
 }

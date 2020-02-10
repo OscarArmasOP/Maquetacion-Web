@@ -12,14 +12,14 @@ body {
     width: 100%;
     background: rgb(255, 255, 255);
     border-bottom: 5px solid grey;
-    border-top: 10px solid lightblue;
+    border-top: 10px solid rgb(63, 11, 11);
 }
 
 #logo {
     width: 30%;
     font-size: 30px;
     float: left;
-    color: lightblue;
+    color: rgb(83, 22, 22);
     margin-top: 35px;
 }
 
@@ -135,12 +135,97 @@ body {
     color: withe;
 }
 
-.slider-small {
+#slider.slider-small {
     height: 150px;
 }
 
-.slider-small h1 {
+#slider.slider-small h1 {
     margin-top: 0px;
     padding: 0px;
-    padding-top: 150px;
+    padding-top: 50px;
+}
+
+#content {
+    width: 70%;
+    float: left;
+    border: 5px solid rgb(119, 23, 23);
+    min-height: 650px;
+    margin-right: 25px;
+    ;
+}
+
+#asidebar {
+    width: 25%;
+    float: left;
+    border: 1px solid salmon;
+}
+
+.sidebar-item {
+    background: salmon;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.sidebar-item .btn {
+    margin: 0px auto;
+    margin-top: 10px;
+    transition: 300ms all;
+}
+
+.sidebar-item .btn:hover {
+    background: #444444;
+    color: withe;
+}
+
+.sidebar-item h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #444444;
+}
+
+.btn {
+    display: block;
+    background: black;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    max-width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-success {
+    background: green;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #554e4e;
+    margin-bottom: 5px;
+    padding: 3px;
+    transition: 300ms all;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 0px 5px #444444 inset;
+}
+
+#footer {
+    background: #f7f7f7;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    color: #444444;
+}
+
+#footer p {
+    margin: 0px;
+    padding: 0px;
 }

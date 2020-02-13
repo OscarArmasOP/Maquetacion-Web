@@ -327,3 +327,56 @@ textarea {
     margin-bottom: 0px;
     border: none;
 }
+
+
+/*RESPONSIVE*/
+
+
+/*Desde la anchura 0px hasta la anchura 1400*/
+
+@media (max-width: 1488px) {
+    .center {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1314px) {
+    .center {
+        width: 95%;
+    }
+    #menu ul {
+        width: auto;
+    }
+}
+
+@media (max-width: 1015px) {
+    #logo {
+        float: none;
+        width: 240px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    #header {
+        height: 200px;
+    }
+    #menu,
+    #menu ul {
+        clear: both;
+        /*Limpiar flotados*/
+        float: none;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 40px;
+    }
+    #content {
+        float: none;
+        width: 100%;
+    }
+    #asidebar {
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+}

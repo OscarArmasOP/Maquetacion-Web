@@ -352,7 +352,7 @@ textarea {
 @media (max-width: 1015px) {
     #logo {
         float: none;
-        width: 240px;
+        width: 290px;
         margin: 0px auto;
         margin-top: 20px;
     }
@@ -378,5 +378,40 @@ textarea {
         width: 60%;
         margin: 0px auto;
         margin-bottom: 50px;
+    }
+    #slider h1 {
+        padding-top: 115px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 490px) {
+    #header {
+        min-height: 130px;
+        overflow: hidden;
+    }
+    #menu,
+    #menu ul {
+        line-height: 50px;
+    }
+    #menu ul li {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    #slider {
+        height: 130px;
+    }
+    #slider h1 {
+        font-size: 19px;
+        padding-top: 30px;
+    }
+    #slider .btnWhite {
+        margin-top: 20px;
+    }
+    #slider .slider-small {
+        height: 100px;
+    }
+    #slider .slider-small h1 {
+        padding-top: 35px;
     }
 }
